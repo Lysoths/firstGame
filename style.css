@@ -1,0 +1,157 @@
+@import url('http://fonts.cdnfonts.com/css/proggy-tiny');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'ProggyTinyTTSZ', sans-serif;
+    font-family: 'ProggyTinyTT', sans-serif;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start-screen{
+    width: 100vw;
+    height: 100vh; 
+    color:White; 
+    background-color:#1e6091;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-size:50px;
+    /* margin-bottom:-100vh; */
+}
+
+.start-screen .select-enemy {
+    padding:20px;
+    font-size:20px;
+    width:300px;
+    margin-top:35px;
+    border:none;
+    cursor:pointer;
+    
+}
+
+.select-enemy:hover {
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+}
+
+.select-screen{
+    width: 100vw;
+    height: 100vh; 
+    color:White; 
+    background-color:#1e6091;    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-size: 35px;
+  
+}
+
+.select-screen h1 {
+    margin-top:150px;
+}
+
+.selector-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    height:100%;
+    
+}
+
+.game-screen{
+    width: 100vw;
+    height: 100vh; 
+    color:White; 
+    background-color:#1e6091;
+    display:flex;
+    position:relative;
+   
+}
+
+.game-screen .time {
+    display:inline-block;
+    position:absolute;
+    left: 150px;
+    top: 10px; 
+    font-size:40px;
+}
+
+.game-screen .score {
+    display:inline-block;
+    position:absolute;
+    top:15px;   
+    right: 150px;
+    font-size:40px;
+}
+
+.game-screen .enemy {
+    display:inline-block;
+    position:absolute;
+    bottom:250px;
+    left:550px;
+    cursor:pointer;
+    transition:all .3s ease-in;
+   
+}
+.game-screen .enemy img {
+    width: 160px;
+}
+
+.game-screen .enemy:hover {
+    transform: scale(1.1);
+}
+
+.selector1 {
+    width: 200px;
+    height: 400px;    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.selector1 img:hover {
+    cursor:pointer;
+    transform:scale(1.2);
+}
+
+.selector2 {
+    width: 200px;
+    height: 400px;
+    margin:20px;       
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.selector2 img:hover {
+    cursor:pointer;
+    transform:scale(1.2);
+}
+
+.selector3 {
+    width: 200px;
+    height: 400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;         
+}
+
+.selector3 img:hover {
+    cursor:pointer;
+    transform:scale(1.2);
+}
+
+.select-screen img {
+    width: 200px;
+}
