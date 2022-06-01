@@ -51,7 +51,7 @@ fish3.addEventListener("click",()=>{
   
 })
 
-
+ 
 
 let i =  1;
 enemy.addEventListener("click",()=>{
