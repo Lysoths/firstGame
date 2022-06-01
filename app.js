@@ -55,8 +55,13 @@ fish3.addEventListener("click",()=>{
 
 let i =  1;
 enemy.addEventListener("click",()=>{
+<<<<<<< HEAD
     randomNumber1 = Math.ceil(Math.random()*90); 
     randomNumber2 = Math.ceil(Math.random()*90);  
+=======
+    randomNumber1 = Math.ceil(Math.random()*1000+100); 
+    randomNumber2 = Math.ceil(Math.random()*700+100);  
+>>>>>>> 67678fcc8e3ced53a635fe116326d0d313eea0ec
     randomRotate = Math.ceil(Math.random()*45)  
     enemy.style=`left: ${randomNumber1}%; top: ${randomNumber2}%; transform:rotate(${randomRotate}deg);`
     score.innerText = `Score : ${i++}`
